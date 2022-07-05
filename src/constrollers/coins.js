@@ -35,6 +35,7 @@ exports.calculateCoins    = (req, res) =>{
         
         for (let index  = 0; index < coinsNeeded.length; index++) {
             if ((remainCoins[index] * feePerCoin) > feeTotalAwal){
+                coinsNeeded = [...coinsNeeded, remainCoins[index]];
                 sisCoinBayarPajak  = remainCoins[index] - (feeTotalAwal + feePerCoin);
                 biaya   = feeTotalAwal + feePerCoin;
                 remainCoins.shift();
