@@ -1,0 +1,5 @@
+{
+        "coinsDodi" : [10, 5, 2, 3, 6, 7],
+        "transactionTotal" : 23,
+        "feePerCoin" : 0.5
+}
