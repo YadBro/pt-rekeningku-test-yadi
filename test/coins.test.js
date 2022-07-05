@@ -3,7 +3,7 @@ const { calculateCoins } = require("./coins");
 
 test("beli barang butuh coin", () => {
     const myResult = {
-        coinsNeeded: [10,7,6],
+        coinsNeeded: [10,7,6,5],
         biaya: 2,
         remainCoins: [3,3,2]
     }
